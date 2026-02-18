@@ -1,5 +1,7 @@
 # AutoWindowsUpdate
 
+**生成AIによって作成**
+
 **AutoWindowsUpdate** は、Windows Update を自動的に実行するための C# コンソールアプリケーションです。
 未インストールの更新プログラムを自動的に検索し、ダウンロードおよびインストールを行います。
 
