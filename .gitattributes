@@ -1,0 +1,39 @@
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+# Call the above rule explicitly for text files in case auto-detection fails.
+
+# The above will handle all files NOT found below
+# These files are text and should be normalized (Convert crlf => lf)
+*.cs       text diff=csharp
+*.xaml     text
+*.xml      text
+*.config   text
+*.csproj   text
+*.sln      text
+*.md       text
+*.txt      text
+*.json     text
+*.js       text
+*.css      text
+*.html     text
+*.htm      text
+
+# These files are binary and should be left untouched
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.ico      binary
+*.mov      binary
+*.mp4      binary
+*.mp3      binary
+*.flv      binary
+*.fla      binary
+*.swf      binary
+*.gz       binary
+*.zip      binary
+*.7z       binary
+*.pyc      binary
+*.pdf      binary
